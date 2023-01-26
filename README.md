@@ -1,7 +1,7 @@
 ## Timestamp Microservice Project
 
 
-Project for studies purpose based on the freeCodeCamp Timestamp Microservice Project.
+Project for studies purpose based on the [freeCodeCamp Timestamp Microservice Project](https://www.freecodecamp.org/learn/back-end-development-and-apis/back-end-development-and-apis-projects/timestamp-microservice)
 
 ### Built With
 - Python (version 3.10.9)
@@ -34,4 +34,4 @@ export CONFIGURATION_SETUP="config.DevelopmentConfig"
 | --- | --- | --- |
 | GET | /api/:date |  Converts date to a unix timestamp|
 | GET | /api/:timestamp |  Converts unix timestamp to date|
-| GET | /api/: | Empty param return current time |
+| GET | /api/: | Empty param returns current time |

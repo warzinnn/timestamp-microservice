@@ -1,4 +1,5 @@
 import pytest
+
 from app import create_app
 
 """
@@ -9,10 +10,10 @@ Fixtures for api testing
 @pytest.fixture()
 def app():
     app = create_app()
-    app.config.update({
-        "TESTING": True,
-    })
+    app.config.from_object("config.TestingConfig")
+    print(f"Testing: {app.config['TESTING']}")
     yield app
+
 
 @pytest.fixture()
 def client(app):

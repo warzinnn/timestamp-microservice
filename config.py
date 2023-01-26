@@ -1,20 +1,26 @@
 class Config(object):
-    """Base configuration"""
+    """Base configuration
+    configurations settings that apply to all the environments.
+    """
+
     DEBUG = False
     TESTING = False
 
 
 class ProductionConfig(Config):
     """Production configuration"""
-    ENV = 'production'
+
+    ENV = "production"
 
 
 class DevelopmentConfig(Config):
     """Development configuration"""
-    ENV ="development"
+
+    ENV = "development"
     DEBUG = True
 
 
 class TestingConfig(Config):
     """Testing configuration"""
+
     TESTING = True

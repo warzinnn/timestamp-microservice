@@ -8,6 +8,10 @@ pytest = "*"
 pytest-cov = "*"
 flask = "*"
 requests = "*"
+pre-commit = "*"
+flake8 = "*"
+black = "*"
+isort = "*"
 
 [dev-packages]
 
