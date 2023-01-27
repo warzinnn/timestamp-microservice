@@ -12,7 +12,7 @@ Project for studies purpose based on the [freeCodeCamp Timestamp Microservice Pr
 
 1. Clone the repo
 ```sh
-git clone https://github.com/warzinnn/timestamp_microservice.git
+git clone https://github.com/warzinnn/timestamp-microservice.git
 ```
 
 2. Install requirements
